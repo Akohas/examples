@@ -9,9 +9,9 @@
 		height: 26px;
 		width: 26px;
 		margin-right: 22px;
+		transition: 0.3s;
 		&:hover{
 			opacity: 1;
-			transition: 0.3s;
 		}
 	}
 	&__vk{
@@ -120,6 +120,9 @@
   			color: #fff;
 
   		}
+  		& svg use{
+  			transition: 0.3s;
+  		}
   		&:hover svg use{
   			fill: #fff;
   		}
@@ -151,12 +154,17 @@
 			height: 2.3em;
 			width: 3.25em;
 			font-size: 0.8em;
+			transition: 0.3s;
 			&:hover{
 				background-color:#2aaa07;
 				border-color: #2aaa07;
 			}
+			& svg use{
+				transition: 0.3s;
+			}
 			&:hover svg use{
 				fill: #fff;
+				
 			}
 
 		}
@@ -277,6 +285,7 @@
 		font-size: 14px;
 		opacity: 0.8;
 		color: #fff;
+		transition: 0.3s;
 		text-decoration: none;
 		@media(max-width: 1024px){
 			opacity: 1;

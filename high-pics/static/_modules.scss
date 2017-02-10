@@ -54,6 +54,7 @@ padding: 12px;
 		color: rgba(0,0,0,0.4);
 		display: inline-block;
 		font-size: 35px;
+		transition: 0.3s;
 		margin-left: 10%;
 		&:first-child{
 			margin-left: 0;
@@ -74,7 +75,7 @@ padding: 12px;
 		font-size: 22px;
     margin-right: 8%;
 		text-decoration: none;
-		
+		transition: 0.3s;
 		&:last-child{
 			margin-right: 0px;
 		}
@@ -129,6 +130,7 @@ padding: 12px;
 	font-weight: 700;
 	padding-top: 8px;
 	text-align: center;
+	transition: 0.3s;
 	& svg use{
 		fill: #ff4c90;
 	}
@@ -160,6 +162,7 @@ padding: 12px;
 	cursor:pointer;
 	position: fixed;
 	visibility: hidden;
+	transition: 0.3s;
 	& svg{
 		width: 23px;
 		height: 23px;
@@ -183,6 +186,7 @@ padding: 12px;
 	background-color: #fff;
 	float: left;
 	cursor:pointer;
+	transition: 0.3s;
 	& svg{
 		width: 23px;
 		height: 23px;
@@ -210,6 +214,7 @@ padding: 12px;
 	text-align: center;
 	cursor: pointer;
 	font-weight: 600;
+	transition: 0.3s;
 	&:hover{
 		opacity: 0.9;
 	}
@@ -315,6 +320,7 @@ padding: 12px;
 	top: 38px;
 	left: 60px;
 	cursor:pointer;
+	transition: 0.3s;
 	& svg{
 		width: 23px;
 		height: 23px;
