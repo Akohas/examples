@@ -1,11 +1,11 @@
-mixin photo(PhotoName, userpic, author, likes)
+mixin photo(PhotoMin, PhotoMax, userpic, author, likes)
 	.main-block__item.photo-block
 		a(href="account.html").photo-block__mobile-block
 			img(src= userpic).photo-block__userpic-mobile
 			.photo-block__author-mobile= author
 		.photo-block__image
-			a(href=PhotoName).photo-link-js
-				img(src=PhotoName).photo-block__img-elem.photo-elem-js
+			a(href= PhotoMax).photo-link-js
+				img(src=PhotoMin).photo-block__img-elem.photo-elem-js
 		.photo-block__desc
 			.photo-block__buttons
 				button.photo-block__like-button 
