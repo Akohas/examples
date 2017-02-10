@@ -25,11 +25,12 @@
 		a(href="index.html")
 			img(src="../../img/logo.png").header-fixed__logo-img
 	.header-fixed__form
-		.header-fixed__search-cont
-			input(type="search" placeholder="Поиск фото..." name="search-field" class="header-fixed__search-field")
-			input(type="submit" class="header-fixed__submit" onclick="location.href = 'search.html'")
-			svg.header-fixed__search-icon
-				use(xlink:href="#search")
+		form
+			.header-fixed__search-cont
+				input(type="search" placeholder="Поиск фото..." name="search-field" class="header-fixed__search-field")
+				input(type="submit" class="header-fixed__submit" onclick="location.href = 'search.html'")
+				svg.header-fixed__search-icon
+					use(xlink:href="#search")
 		.header-fixed__userpic
 			a(href="#")
 				img(src="../../img/userpic.png")

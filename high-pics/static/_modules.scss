@@ -124,7 +124,7 @@ padding: 12px;
 	height: 38px;
 	border-radius: 12px;
 	color: #727272;
-	font-family: Baron Neue;
+	font-family: $mainfont;
 	font-size: 18px;
 	font-weight: 700;
 	padding-top: 8px;
@@ -249,7 +249,7 @@ padding: 12px;
 	display: inline-block;
 	margin-left: 20px;
 	vertical-align: middle;
-	text-shadow: 2px 2px 2px #000;
+	text-shadow: 2px 2px 2px #333;
 }
 
 

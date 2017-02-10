@@ -202,11 +202,12 @@
 	 	text-align: center;
 	 	vertical-align: middle;
 	 	position: relative;
-		z-index: 10;
+		z-index: 4;
 	 	float: right;
 	 	padding: 0 1.3em;
     font-size: 0.8em;
     height: 2.3em;
+    background-color: #fff;
     & span{
     	line-height: 2.1em;
     }

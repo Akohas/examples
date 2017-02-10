@@ -63,8 +63,9 @@ $(document).ready(function(){
     $('.gallery-container').removeClass('modal-animate');
       setTimeout(function(){
         $('.gallery').css('display', 'none');
+        $('body').css('overflow', 'auto');
       }, 500);
-  	 $('body').css('overflow', 'auto');
+
   }
    
   $('.photo-link-js').on('click', function(event){
