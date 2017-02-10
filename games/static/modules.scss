@@ -1,0 +1,69 @@
+@import 'includes/owl-carousel/owl.carousel';
+@import 'includes/owl-carousel/owl.theme.default';
+
+
+
+
+
+
+.wrapper{
+	width: 940px;
+	margin: 0 auto;
+	
+}
+.lg-slider .owl-nav{
+	.owl-prev{
+	top: 48%;
+	width: 44px;
+	height: 44px;
+	position: absolute;
+	left: 20px;
+}
+ .owl-next{
+ 	top: 48%;
+	width: 44px;
+	height: 44px;
+	position: absolute;
+	right: 20px;
+}
+}
+.xs-slider .owl-nav{
+	.owl-prev{
+	top: 48%;
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	left: 20px;
+}
+ .owl-next{
+ 	top: 48%;
+	width: 30px;
+	height: 44px;
+	position: absolute;
+	right: 20px;
+}
+}
+
+
+.owl-prev svg use{
+	fill: #738b8b;
+}
+.owl-next svg use{
+	fill: #738b8b;
+}
+
+.owl-prev svg,
+.owl-next svg {
+	width: 100%;
+	height: 100%;
+}
+
+.slider__item img{
+	width: 100%;
+}
+
+
+.slider{
+	padding-top: 61px;
+	
+}

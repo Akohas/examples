@@ -1,0 +1,104 @@
+.footer{
+	@media(max-width: 767px){
+		text-align: center;
+	}
+	background-color: $blue-color;
+	margin-top: 29px;
+	@media(max-width: 500px){
+		padding-top: 20px;
+		text-align: center;
+	}
+	padding-top: 40px;
+	padding-bottom: 23px;
+	&__logo{
+		margin-top: 34px;
+    margin-left: 4px;
+		@media(max-width: 500px){
+			margin-top: 0;
+			margin-bottom: 20px;
+		}
+	}
+	&__contacts{
+		width: 223px;
+		color: #ffffff;
+		margin: 0 auto;
+		line-height: 23px;
+   
+    font-size: 18px;
+    @media(max-width: 1000px){
+			
+			font-size: 15px;
+		}
+	}
+
+	&__contacts-link{
+		color: #ffffff;
+		text-decoration: underline;
+		line-height: 34px;
+    padding-left: 19px;
+    &:hover{
+    	color: #fff;
+    }
+	}
+	&__contacts ul{
+		margin-left: -22px;
+
+	}
+	&__networks{
+
+		width: 100%;
+		padding-right: 5px;
+		@media(min-width: 500px){
+			float: right;
+		}
+		@media(max-width: 767px){
+			margin-top: 30px;
+		}
+	}
+	&__networks-item{		
+		width: 46px;
+		height: 46px;
+		border: solid 3px $red-color;
+		display: inline-block;
+		text-align: center;
+		margin-left: 10px;
+		vertical-align: middle;
+		&:first-child{
+			margin-left: 0px;
+		} 
+	}
+	&__networks-vk{
+		width: 32px;
+		height: 19px;
+		margin-top: 13px;
+	}
+	&__networks-youtube{
+		width: 28px;
+		height: 31px;
+		margin-top: 7px;
+	}
+	&__networks-twitch{
+		width: 28px;
+		height: 28px;
+		margin-top: 10px;
+	}
+	&__networks-twitter{
+		width: 28px;
+		height: 22px;
+		margin-top: 12px;
+	}
+	&__copyright{
+		margin-top: 12px;
+		font-size: 24px;
+		color: #fff;
+		margin-right: 23px;
+		@media(max-width: 767px){
+			width: 100%;
+			margin-right: 0;
+		}
+		@media(min-width: 500px){
+			float: right;
+		}
+	}
+	
+}

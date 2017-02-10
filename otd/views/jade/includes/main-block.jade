@@ -1,0 +1,51 @@
+.news
+	.news__flag
+		svg
+			use(xlink:href="#news")  
+	h1.news__header Последние новости
+	.news__items
+		-for(var i =0; i<3; i++){
+			.news__item.article
+				h2.article__header Фара: обзор базовых тактик
+				.article__image
+					img(src="../../img/news1.png")
+				.article__description
+					h4.article__description-header Сегодня в статье: 	Фара
+					p.article__description-text Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, adipisci sit. Corporis exercitationem dicta accusantium accusamus amet perspiciatis consequatur nulla excepturi rem, quibusdam itaque aut molestiae odio cupiditate inventore. Magni, aperiam officiis, asperiores perferendis ipsa omnis distinctio consequatur saepe, architecto facere veniam! Tempora aperiam id eligendi officia quod modi numquam?
+					a(href="#").article__description-link Читать далее
+
+			.news__item.article
+				h2.article__header Мёрси: Обзор базовых тактик
+				.article__image
+					img(src="../../img/news2.png")
+				.article__description
+					h4.article__description-header Ангела Циглер: формула идеального саппортинга
+					p.article__description-text Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, adipisci sit. Corporis exercitationem dicta accusantium accusamus amet perspiciatis consequatur nulla excepturi rem, quibusdam itaque aut molestiae odio cupiditate inventore. Magni, aperiam officiis, asperiores perferendis ipsa omnis distinctio consequatur saepe, architecto facere veniam! Tempora aperiam id eligendi officia quod modi numquam?
+					a(href="#").article__description-link Читать далее
+			.news__item.article
+				h2.article__header Короткометражка “Герой”.
+				.article__image
+						img(src="../../img/news3.png")
+				.article__description
+					p.article__description-text Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, enim, architecto. Placeat temporibus qui tempore maxime ea possimus cumque eum.
+					a(href="#").article__description-link Читать далее
+		-}
+	ul.news__pagination._pagination.list-unstyled
+		li._pagination__item
+			a(href="#") &#171;
+		li._pagination__item._pagination__item-active
+			a(href="#") 1
+		li._pagination__item
+			a(href="#") 2
+		li._pagination__item
+			a(href="#") 3
+		li._pagination__item
+			a(href="#") 4
+		li._pagination__item
+			a(href="#") 5
+		li._pagination__item._pagination__item-dots ...
+		li._pagination__item
+			a(href="#") 11
+		li._pagination__item
+			a(href="#") &#187;
+

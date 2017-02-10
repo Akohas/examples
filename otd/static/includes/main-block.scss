@@ -1,0 +1,149 @@
+.main-wrapper{
+	padding-top: 49px;
+	
+}
+
+.news{
+	background: linear-gradient(to bottom, #fac8c2 4px, #fde9e7 70px, #fff 124px);
+	position: relative;
+	box-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+	font-family: Arial;
+	padding-bottom: 33px;
+	&__flag{
+		position: absolute;
+		left: 63px;
+		top: -1px;
+		&:after{
+			content: "";
+			background: url('../../img/red-flag.png') no-repeat;
+			padding: 4px 69px 73px 0px;
+		}
+		
+	}
+	&__flag svg{
+		width: 24px;
+		height: 20px;
+		position: absolute;
+    left: 12px;
+    top: 18px;
+	}
+	&__header{
+		padding-left: 125px;
+		font-size: 24px;
+		font-weight: 700;
+		padding-top: 20px;
+		margin: 0;
+	}
+	&__items{
+		padding: 30px 57px 0 50px;
+		@media(max-width: 500px){
+			padding: 0px 20px 0 20px;
+		}
+		@media(max-width: 768px) and (min-width: 501px){
+			padding: 20px 35px 0 35px;
+		}
+
+	}
+	&__item{
+		margin-top: 62px;
+		&:first-child{
+			margin-top: 48px;
+		}
+	}
+	
+
+	&__pagination{
+		margin-top: 62px;
+	}
+}
+
+._pagination{
+	margin-top: 63px;
+	width: 100%;
+	text-align: center;
+	font-size: 0;
+
+	&__item{
+		@media(max-width: 500px){
+			width: 22px;
+			height: 22px;
+			font-size: 16px;
+		}
+		width: 30px;
+		height: 30px;
+		background-color: $red-color;
+		margin-left: 5px;
+		font-size: 20px;
+		font-weight: 700;
+		color: #ffffff;
+		vertical-align: middle;
+		border-radius: 5px 6px 6px 5px;
+		display: inline-block;
+		&:hover:not(._pagination__item-dots){
+			background-color: $blue-color;
+		}
+	}
+	&__item a{
+		color: #ffffff;
+		&:hover{
+			text-decoration: none;
+		}
+	}
+	&__item-active{
+		background-color: $blue-color;
+	}
+	&__item-dots{
+		@media(max-width:500px){
+			width: 35px;
+		}
+		background-color: #ffffff;
+		color: $red-color;
+		vertical-align: bottom;
+		height: 22px;
+		width: 60px;
+	}
+}
+
+
+.article{
+	@include clearfix;
+	&__header{
+		font-weight: 700;
+		font-size: 18px;
+		line-height: 27px;
+		margin: 0;
+		border-left: solid 6px $red-color; 
+		padding: 7px 11px 6px;
+	}
+	&__image{
+		text-align: center;
+		padding: 19px 39px 0px 45px;
+	}
+	&__image img{
+		width: 100%
+	}
+	&__description{
+		padding-left: 3px;
+		padding-top: 15px;
+	}
+	&__description-header{
+		font-weight: 700;
+		font-size: 18px;
+		margin: 8px 0 17px;
+		line-height: 17px;
+	}
+	&__description-text{
+		font-weight: 400;
+		font-size: 13px;
+		font-family: Arial;
+		line-height: 17px;
+	}
+	&__description-link{
+		float: right;
+		font-size: 16px;
+		text-decoration: underline;
+		font-weight: 400;
+		margin-top: 4px;
+	}
+
+}

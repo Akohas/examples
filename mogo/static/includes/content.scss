@@ -1,0 +1,42 @@
+.content-block{
+	&__header-fir{
+		color: $dark-font-color;
+		font-family: $kaushan;
+		font-size: 24px;
+		font-weight: 400;
+		text-align: center;
+	}
+	&__header-sec{
+		color: $dark-font-color;
+		font-family: $montserrat;
+		font-size: 30px;
+		font-weight: 700;
+		text-transform: uppercase;
+		position: relative;
+		margin-top: 15px;
+		text-align: center;
+		padding-bottom: 44px;
+		&:after{
+			content: "";
+			width: 60px;
+			height: 3px;
+			background-color: #f38181;
+			position: absolute;
+			top: 68px;
+			margin: 0 auto;
+			left: calc(50% - 30px);
+			
+		}
+	}
+	&__description{
+		color: $grey-color;
+		font-family: $roboto;
+		font-size: 15px;
+		font-weight: 400;
+		line-height: 24px;
+		text-align: center;
+		padding-top: 19px;
+		max-width: 954px;
+		margin: 0 auto;
+	}
+}

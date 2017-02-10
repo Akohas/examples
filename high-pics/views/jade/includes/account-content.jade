@@ -1,0 +1,14 @@
+extends main
+prepend premain
+	.account
+		.account__avatar
+			img(src='../../img/userpic2.jpg')
+		.account__name User Name
+		.account__description Фотограф из России
+		.account__networks
+prepend content
+	+photo('../../img/picture2.jpg', '../../img/userpic3.jpg', 'User name', '200')
+	+photo('../../img/picture3.jpg', '../../img/userpic3.jpg', 'User name', '300')
+	+photo('../../img/picture5.jpg', '../../img/userpic3.jpg', 'User name', '267')
+	+photo('../../img/picture6.jpg', '../../img/userpic3.jpg', 'User name', '333')
+	+photo('../../img/picture7.jpg', '../../img/userpic3.jpg', 'User name', '567')

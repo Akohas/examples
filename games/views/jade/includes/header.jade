@@ -1,0 +1,35 @@
+
+.header
+	.header__container
+		.wrapper
+			.header__mobile-block
+				.header__mobile-menu.menu-js
+					svg
+						use(xlink:href="#mobile-menu")
+				.header__mobile-logo
+					a(href="#")
+					img(src="../../img/Games.png")
+				.header__mobile-search.search-js
+					svg
+							use(xlink:href="#search-mobile")
+			.header__logo
+				a(href="#")
+					img(src="../../img/Games.png")
+			.header__nav
+				a(href="#").header__nav-item Игры
+				a(href="#").header__nav-item Приложения
+				a(href="#").header__nav-item Приколы
+				a(href="#").header__nav-item Обратная связь
+			.header__search
+				input(type="search" id="search" class="header__search-field" placeholder="search")
+				svg.header__search-icon
+					use(xlink:href="#search")
+	.mobile-nav.nav-js
+		a(href='#').mobile-nav__item Игры
+		a(href='#').mobile-nav__item Приложения
+		a(href='#').mobile-nav__item Приколы
+		a(href='#').mobile-nav__item Обратная связь
+	.mobile-search.search-field-js
+		input(type="search" id="mobile-search" class="mobile-search__field" placeholder="search")
+		svg.mobile-search__icon
+					use(xlink:href="#search")

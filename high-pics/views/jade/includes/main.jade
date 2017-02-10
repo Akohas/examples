@@ -1,0 +1,47 @@
+mixin photo(PhotoName, userpic, author, likes)
+	.main-block__item.photo-block
+		a(href="account.html").photo-block__mobile-block
+			img(src= userpic).photo-block__userpic-mobile
+			.photo-block__author-mobile= author
+		.photo-block__image
+			a(href=PhotoName).photo-link-js
+				img(src=PhotoName).photo-block__img-elem.photo-elem-js
+		.photo-block__desc
+			.photo-block__buttons
+				button.photo-block__like-button 
+					svg
+						use(xlink:href="#like")
+					span= likes
+				button.photo-block__add-button
+					svg
+						use(xlink:href="#plus")
+			a(href="account.html").photo-block__author-cont
+				img(src= userpic).photo-block__userpic
+				.photo-block__author= author
+			.photo-block__button-download 
+				span.photo-block__button-download-text Скачать
+				svg
+					use(xlink:href="#download").
+.pre-main
+	block premain
+		.pre-main__networks.networks
+			a(href="#")
+				svg.networks__instagram.networks__item
+					use(xlink:href="#instagram")
+			a(href="#")
+				svg.networks__twitter.networks__item
+					use(xlink:href="#twitter")
+			a(href="#")
+				svg.networks__vk.networks__item
+					use(xlink:href="#vk")
+			a(href="#")
+				svg.networks__item.networks__facebook
+					use(xlink:href="#facebook")
+
+		button.button-add-photo Добавить фото
+
+.main-block
+	block content
+		.main-block__button-more Загрузить больше
+
+

@@ -1,0 +1,26 @@
+.container-fluid.header
+	.container
+		.row
+			.col-lg-3.header__logo.col-md-3.col-xs-3
+				a(href="#")
+					img(src='../../img/onTheDniwe.png')
+			.header__mobile-block.col-xs-9
+				a(href="#").search-js
+					svg
+						use(xlink:href="#search")
+				a(href="#")
+					svg
+						use(xlink:href="#user")
+			.header__navbar.col-lg-9.col-md-9.col-xs-9
+				a(href="#").header__navbar-item Новости
+				a(href="#").header__navbar-item Видео
+				a(href="#").header__navbar-item Статьи
+				a(href="#").header__navbar-item Стрим
+				a(href="#").header__navbar-item Обо мне
+
+.container
+	.row
+		.mobile-search.search-field-js
+			input(type="search" id="mobile-search" class="mobile-search__field" placeholder="search")
+			svg.mobile-search__icon
+				use(xlink:href="#search")
