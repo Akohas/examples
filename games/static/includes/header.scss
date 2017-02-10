@@ -1,5 +1,7 @@
 
-
+.header .wrapper{
+	height:100%;
+}
 .header{
 
 	background-color: $blue-color;
@@ -11,7 +13,6 @@
 		height: 100%;
 	  
 	}
-	
 	
 	&__logo{
 		vertical-align: middle;
@@ -25,9 +26,11 @@
 	&__nav{
 		vertical-align: middle;
 		display: inline-block;
+		height: 100%;
 		
 	}
 	&__nav-item{
+		height: 100%;
 		display: inline-block;
 		font-size: 1em;
 		color: #ffffff;

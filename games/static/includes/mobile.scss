@@ -2,10 +2,13 @@
 	height: 61px;
 
 	&__container{
-		@media(min-width: 766px){
+		@media(min-width: 800px){
 	  	font-size: 17px;
 	  }
-	   @media screen and (min-width: 631px) and (max-width: 765px){
+	   @media screen and (min-width: 799px) and (max-width: 750px){
+	   	font-size: 16px;
+	   }
+	   @media screen and (min-width: 631px) and (max-width: 750px){
 	   	font-size: 13px;
 	   }
 	   @media screen and (max-width: 630px) and (min-width: 500px){
