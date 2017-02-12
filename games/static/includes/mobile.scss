@@ -163,6 +163,7 @@
 .jokes{
 	&__item{
 		@media(min-width: 940px){
+			min-height: 170px; 
 			&:nth-child(-n + 2){
 				margin-top: 0;
 			}
