@@ -1,7 +1,9 @@
 *{
 	box-sizing: border-box;
 }
-
+body{
+  min-width: 1205px;
+}
 svg path {
     fill: inherit;
 }
